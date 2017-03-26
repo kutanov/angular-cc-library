@@ -14,14 +14,14 @@ module.exports = {
     publicPath: '/dist/'
   },
   resolve: {
-    extensions: ['', '.ts', '.js']
+    extensions: ['*', '.ts', '.js']
   },
   module: {
     loaders: [
       {
         test: /\.ts$/,
         exclude: /\.d\.ts$/,
-        loader: 'ts'
+        loader: 'ts-loader'
       },
       {
         test: /\.html$/,
