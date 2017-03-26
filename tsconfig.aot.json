@@ -19,7 +19,8 @@
   "exclude": [
     "node_modules",
     "example",
-    "src/specs"
+    "src/specs",
+    "dist"
   ],
   "awesomeTypescriptLoaderOptions": {
     "useWebpackText": true,

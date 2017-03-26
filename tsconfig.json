@@ -20,7 +20,8 @@
   "exclude": [
     "node_modules",
     "example",
-    "src/specs"
+    "src/specs",
+    "dist"
   ],
   "angularCompilerOptions": {
     "genDir": "compiled"
