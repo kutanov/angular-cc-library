@@ -1,6 +1,6 @@
 {
   "name": "angular-cc-library",
-  "version": "1.0.2",
+  "version": "1.0.4",
   "description": "angular credit card library",
   "main": "dist/index.js",
   "typings": "dist/index.d.ts",
@@ -15,7 +15,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/nogorilla/angular-cc-library.git"
+    "url": "git+https://github.com/almothafar/angular-cc-library.git"
   },
   "keywords": [
     "angular",
@@ -29,7 +29,7 @@
   "bugs": {
     "url": "https://github.com/nogorilla/angular-cc-library/issues"
   },
-  "homepage": "https://github.com/nogorilla/angular-cc-library#readme",
+  "homepage": "https://github.com/almothafar/angular-cc-library#readme",
   "devDependencies": {
     "@angular/common": "^4.0.0",
     "@angular/compiler": "^4.0.0",
