@@ -86,7 +86,10 @@ var CreditCardFormatDirective = (function () {
     CreditCardFormatDirective.prototype.formatBackCardNumber = function (e) {
         var _this = this;
         var value = this.target.value;
-        if (e.which !== 8 && value.length > 0) {
+        if (e.which !== 8) {
+            return;
+        }
+        if (e.which === 8 && value.length > 0) {
             e.preventDefault();
             setTimeout(function () {
                 _this.target.value = value.substring(0, value.length - 1);
