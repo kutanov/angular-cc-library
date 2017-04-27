@@ -1,2 +1,2 @@
-export * from './directives';
-export * from './credit-card.validator';
+export { CreditCardDirectivesModule } from './directives';
+export { CreditCardValidator } from './credit-card.validator';
