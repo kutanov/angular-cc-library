@@ -4,10 +4,15 @@
     "module": "commonjs",
     "moduleResolution": "node",
     "sourceMap": true,
+    "sourceRoot": "src",
+    "outDir": "dist",
     "inlineSources": true,
     "emitDecoratorMetadata": true,
     "experimentalDecorators": true,
     "noEmitHelpers": false,
+    "typeRoots": [
+      "node_modules/@types"
+    ],
     "lib": [
       "es6",
       "dom"

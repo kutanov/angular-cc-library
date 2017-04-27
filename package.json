@@ -7,10 +7,10 @@
   "scripts": {
     "test": "karma start ./karma.conf.js",
     "dev": "webpack-dev-server --port 4200 --inline --progress --profile --colors --watch --display-error-details --display-cached --content-base",
-    "tsc": "tsc --rootDir src --outDir dist --declaration",
-    "ngc": "./node_modules/.bin/ngc",
+    "tsc": "tsc -p tsconfig.json",
+    "ngc": "./node_modules/.bin/ngc -p tsconfig.aot.json",
     "prebuild": "rimraf dist",
-    "build": "npm run tsc",
+    "build": "npm run ngc && npm run tsc",
     "prepublish": "npm run build"
   },
   "repository": {
